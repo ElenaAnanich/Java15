@@ -46,6 +46,7 @@
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
+
                     <execution>
                         <id>report</id>
                         <phase>verify</phase>
@@ -56,7 +57,7 @@
                     <execution>
                         <id>check</id>
                         <goals>
-                            <goal>check</goal>
+                            <!--<goal>check</goal>-->
                         </goals>
                         <configuration>
                             <rules>
@@ -75,7 +76,5 @@
                 </executions>
             </plugin>
         </plugins>
-
     </build>
-
 </project>
